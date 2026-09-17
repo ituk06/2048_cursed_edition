@@ -36,9 +36,9 @@ KeyboardInputManager.prototype.listen = function () {
 
   var map = {
     38: 0, // Up
-    37: 3, // Right
+    39: 3, // Right
     40: 2, // Down
-    39: 1, // Left
+    37: 1, // Left
     75: 0, // Vim up
     76: 1, // Vim right
     74: 2, // Vim down
@@ -69,7 +69,7 @@ KeyboardInputManager.prototype.listen = function () {
   });
 
   // Respond to button presses
-  this.bindButtonPress(".retry-button", this.restart);
+  //this.bindButtonPress(".retry-button", this.restart);
   this.bindButtonPress(".restart-button", this.restart);
   this.bindButtonPress(".keep-playing-button", this.keepPlaying);
 
